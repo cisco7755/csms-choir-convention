@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/registration.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-web/css/all.css">
+
+</head>
+<body>
+        <section id="header">
+                <div class="header  ">
+                    <div class="nav-bar">
+                        <div class="brand">
+                            <a href="../html/homepage.html"><h1 style="color: crimson;">csmc <small style="color: white;">choir convention</small> </span></h1></a>
+                        </div>
+                        <div class="nav-list">
+                            <div class="hamburger">
+                                <div class="bar"></div>
+                            </div>
+                            <ul>
+                                <li><a href="../html/homepage.html" data-after="Home">home</a></li>
+                                <li><a href="../html/registration.html" data-after="register"><small class="activelist">registration</small></a></li>
+                                <li><a href="../html/gallary.html" data-after="gallary">gallery</a></li>
+                                <li><a href="../html/contact_us.html"data-after="contact">contact us</a></li>
+                                <li><a href="about.html" data-after="about">about</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </section>
+<div class="maincontainer">
+    <div class="container"> 
+<!-- this the begining of form1 that is the personal information form -->
+<form action="" id="form1">            
+    <h2>personal information</h2>
+    <input type="text" name="name" placeholder="name" required>
+    <input type="text" name="surname" placeholder="surname" required>
+    <select name="gender selelection" id="selecttion" required>
+        <option value="">gender</option>
+        <option value="male">male</option>
+        <option value="female">female</option>
+    </select>
+    <input type="number" placeholder="age" required>
+    <div class="btn-box">
+        <button type="button" id="next1" class="btn btn-outline-success">next <i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+</form>
+<!-- this the end of form1 that is the personal information form -->
+
+<!-- this the begining of form2 that is the camp registration form -->
+        <form action="" id="form2">
+            <h2>camp registration</h2>
+            <input type="text" placeholder="district" required>
+            <input type="text" placeholder="zone" required>
+            <input type="text" placeholder="branch" required>
+            <div class="btn-box">
+                <button type="button" id="back1" class="btn btn-outline-success"><i class="fa-solid fa-arrow-left"></i>back</button>
+                <button type="button" id="next2" class="btn btn-outline-success">next<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </form>
+<!-- this the end of form2 that is the  camp registration form -->
+
+<!-- this the end of form3 that is the proficiency form -->
+<form action="" id="form3">
+<div class="proficiency">
+    <h2>what is you proficiency?</h2>
+<div class="container1">
+    
+</div>
+</div>
+    <div class="btn-group ">
+
+        <button type="button" id="back2" class="btn btn-outline-success"><i class="fa-solid fa-arrow-left"></i>back</button>
+        <button type="submit" id="next3" class="btn btn-outline-success">submit</button>
+    </div>
+</form>
+<!-- this the end of form3 that is the proficiency form -->
+
+
+
+<!-- begining of  step indecator -->
+<div class="step-row">
+    <div id="progress"></div>
+    <div class="step-col"><small>step 1</small></div>
+    <div class="step-col"><small>step 2</small></div>
+    <div class="step-col"><small>step 3</small></div>
+</div>
+    </div>
+</div>
+<script src="../jquery.min.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
+<script src="../javascript/register.js"></script>
+<script src="../javascript/scrip.js"></script>
+</body>
+</html>
