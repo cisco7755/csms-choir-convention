@@ -1,1 +1,1 @@
-# csms-choir-convention
+# csmschoir-convention
